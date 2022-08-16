@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/home', function () {
-    
-})
+Route::get('/pesan', function () {
+    return view('order');   
+});

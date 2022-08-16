@@ -1,0 +1,79 @@
+body {
+    background-image: url(bg.jpg);
+    color: brown;
+}
+
+#card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+}
+
+#card-content {
+    padding: 15px 45px;
+}
+
+#card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.underline-title {
+    background-color: #aeaca8;
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 89px;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11pt;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content {
+    background: white;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+
+.form-border {
+    border-bottom: 2px solid #979494;
+    position: relative;
+    margin: 5px 0;
+}
+
+#submit-btn {
+    background-color: #aeaca8;
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #aeaca8;
+    cursor: pointer;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 153px;
+}
+
+#submit-btn:hover {
+    box-shadow: 0px 3px 18px #002a;
+}
